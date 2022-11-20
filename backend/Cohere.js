@@ -9,6 +9,8 @@ function getSubGoals(){
                 model: 'large',
                 inputs: [message],
                 examples: subGoals,
+                //stop_sequences: [""]
+
             });
             // console.log(`The confidence levels of the labels are ${JSON.stringify(response.body.classifications)}`);
             classified = response.body.classifications[0].prediction;
@@ -20,6 +22,7 @@ function getSubGoals(){
             }
         })();
     }
+}
 module.exports = { getSubGoals}
   
 
