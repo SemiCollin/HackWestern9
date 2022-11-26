@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: radial-gradient(circle at 0% 0%, #ebebeb, #b1b1b1 51%, #909090);
 }
 
 .loginWrapper {
