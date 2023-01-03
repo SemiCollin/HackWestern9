@@ -4,7 +4,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "../login/Login";
 import Timeline from "../../components/Timeline";
-import Explore from "../../components/Explore";
+import Explore from "f../../components/Explore";
 import NotFound from "../../components/NotFound";
 import Survey from "../survey/Survey";
 // import Feed from "../../components/feed/Feed";
